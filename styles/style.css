@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+*{
+  font-family: Azeret Mono;
+}
 .head-container{
     display: flex;
     justify-content: space-between;
@@ -16,8 +18,106 @@
 }
 .header-name{
     font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    text-align: left;
+}
+/* future section */
+
+  .future-section{
+    background-image: url(/assets/Hero-bg.png);
+    width:100%;
+    height: 652px;
+    background-repeat: no-repeat;
+    
+
+  }
+  .future-container{
+     width: 998px;
+    height: 582px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  }
+  .future-list{
+    text-align: center;
+    padding: 0 20px;
+  }
+ .future-list h1{
+  color: rgb(13, 19, 33);
+font-size: 48px;
 font-weight: 800;
-line-height: 33px;
+text-align: center;
+
+
+  }
+  .future-list p{
+  color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+  }
+  .future-list button{
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 20px;
+    color: white;
+  margin-top: 30px;
+  }
+  .web-dev-flex{
+    display: flex;
+  }
+  .web-dev-section{
+    margin-top: 74px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding:80px 97px 80px 97px;
+  }
+  .web-dev-title{
+    text-align: center;
+  }
+  .web-dev-description{
+    text-align: center;
+  }
+  .web-dev-heading{
+    padding: 0 47px;
+    margin-bottom:16;
+  }
+  .web-dev-container{
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .web-dev-article{
+    width: 477px;
+    margin: 0 10px;
+  }
+  .web-dev-btn{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 20px;
+    margin-top:44px;
+    ont-size: 20px;
+    font-weight: 500
+
+  }
+  .web-dev-article h3{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+  }
+  .web-dev-article p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
 letter-spacing: 0%;
 text-align: left;
-}
+  }
