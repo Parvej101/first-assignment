@@ -121,4 +121,31 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: left;
   }
+ /* My Inspiration section */
+ .my-inspiration-heading{
+  color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+text-align: center;
+padding: 0 144px;
+ }
+ .my-inspiration-description{
+  color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+padding: 10px 144px;
+ }
+ .my-inspiration{
+  margin: 88px 100px 188px 100px;
+ }
+ .inspiration-video{
+    box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  width: 1076px;
+  height: 550px;
+ }
  
