@@ -162,12 +162,26 @@ padding: 10px 144px;
  .icon-color{
   background-color: rgba(255, 76, 30, 0.05);
  }
- .my-current-target a{
+ .learn-more{
   color: rgb(13, 19, 33);
 font-size: 16px;
 font-weight: 700;
 line-height: 19px;
+ }
+ 
+ .js-image{
+  display: flex;
+  margin: 24px;
+  box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+padding: 48px;
 
-
+background: rgb(255, 255, 255);
+ }
+ .js-icon{
+  width: 940px;
+height: 140px;
+margin-left: 30px;
  }
  
