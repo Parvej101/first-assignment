@@ -148,4 +148,26 @@ padding: 10px 144px;
   width: 1076px;
   height: 550px;
  }
+ /* Icon section */
+.icon-section{
+  margin: 0 150px;
+  display: flex;
+}
+ .icon-style{
+  margin-top: 48px;
+  padding: 40px;
+  border-radius: 16px;
+  
+ }
+ .icon-color{
+  background-color: rgba(255, 76, 30, 0.05);
+ }
+ .my-current-target a{
+  color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+
+
+ }
  
